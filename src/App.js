@@ -2,7 +2,6 @@ import { lazy, Suspense } from 'react';
 import { Routes , Route} from 'react-router-dom';
 import AppBar from "./components/AppBar";
 import Loader from './components/Loader';
-import Navigation from './components/Navigation';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 
 const HomePageView = lazy(() =>
@@ -25,14 +24,10 @@ export default function App() {
       <AppBar />
       <Suspense fallback={<Loader />}>
         <Routes>
-          <Route
-            path="https://xetyri.github.io/goit-react-hw-04-movies/"
-            element={<Navigation to="/" />}
-          />
-          <Route path="/" element={<HomePageView />}/>
-          <Route path="/movies" element={<FilmPageView />}/>
-          <Route path="/movies/:movieId/*" element={<DetailPageView />}/>
-          <Route path="*" element={<PageNotFindView />}/>
+          <Route path="https://xetyri.github.io/goit-react-hw-04-movies/" element={<HomePageView />}/>
+          <Route path="https://xetyri.github.io/goit-react-hw-04-movies/movies" element={<FilmPageView />}/>
+          <Route path="https://xetyri.github.io/goit-react-hw-04-movies/movies/:movieId/*" element={<DetailPageView />}/>
+          <Route path="https://xetyri.github.io/goit-react-hw-04-movies/*" element={<PageNotFindView />}/>
         </Routes>
       </Suspense>
     </>
