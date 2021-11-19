@@ -26,7 +26,7 @@ export default function App() {
       <Suspense fallback={<Loader />}>
         <Routes>
         <Route
-            path="/goit-react-hw-05-movies"
+            path="/goit-react-hw-04-movies"
             element={<Navigation to="/" />}
           />
           <Route path="/" element={<HomePageView />}/>
