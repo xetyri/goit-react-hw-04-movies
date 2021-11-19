@@ -1,0 +1,2 @@
+(this["webpackJsonpgoit-react-hw-04-movies"]=this["webpackJsonpgoit-react-hw-04-movies"]||[]).push([[9],{86:function(t,e,i){"use strict";i.r(e),i.d(e,"default",(function(){return c}));var n=i(2);function c(){return Object(n.jsx)("h1",{children:"404  \u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u0430"})}}}]);
+//# sourceMappingURL=9.24eaea5b.chunk.js.map

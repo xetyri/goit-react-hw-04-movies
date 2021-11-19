@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/views/PageNotFindView/PageNotFindView.js"],"names":["Error"],"mappings":"mMAAe,SAASA,IACpB,OACI","file":"static/js/9.24eaea5b.chunk.js","sourcesContent":["export default function Error() {\r\n    return (\r\n        <h1>404  Страница не найдена</h1>\r\n    )\r\n};"],"sourceRoot":""}
