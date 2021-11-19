@@ -25,14 +25,10 @@ export default function App() {
       <AppBar />
       <Suspense fallback={<Loader />}>
         <Routes>
-        <Route
-            path="/goit-react-hw-04-movies"
-            element={<Navigation to="/" />}
-          />
-          <Route path="/" element={<HomePageView />}/>
-          <Route path="/movies" element={<FilmPageView />}/>
-          <Route path="/movies/:movieId/*" element={<DetailPageView />}/>
-          <Route path="*" element={<PageNotFindView />}/>
+          <Route path="/goit-react-hw-04-movies/" element={<HomePageView />}/>
+          <Route path="/goit-react-hw-04-movies/movies" element={<FilmPageView />}/>
+          <Route path="/goit-react-hw-04-movies/movies/:movieId/*" element={<DetailPageView />}/>
+          <Route path="/goit-react-hw-04-movies/*" element={<PageNotFindView />}/>
         </Routes>
       </Suspense>
     </>
