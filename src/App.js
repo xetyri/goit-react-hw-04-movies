@@ -27,7 +27,7 @@ export default function App() {
           <Route path="https://xetyri.github.io/goit-react-hw-04-movies/" element={<HomePageView />}/>
           <Route path="https://xetyri.github.io/goit-react-hw-04-movies/movies" element={<FilmPageView />}/>
           <Route path="https://xetyri.github.io/goit-react-hw-04-movies/movies/:movieId/*" element={<DetailPageView />}/>
-          <Route path="https://xetyri.github.io/goit-react-hw-04-movies/*" element={<PageNotFindView />}/>
+          {/* <Route path="https://xetyri.github.io/goit-react-hw-04-movies/*" element={<PageNotFindView />}/> */}
         </Routes>
       </Suspense>
     </>
