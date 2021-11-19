@@ -1,0 +1,20 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px;
+  font-weight: 500;
+  color: #9ee2ff;
+  font-size: 20px;
+  transition: all 250ms linear;
+}
+.link:hover {
+  transform: scale(0.9);
+}
+.activeLink{
+  color: #fa4caf;
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px;
+  font-weight: 500;
+  font-size: 20px;
+}
